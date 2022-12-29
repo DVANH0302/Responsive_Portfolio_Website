@@ -14,6 +14,9 @@ function App() {
       case "/contact":
         component = <Contact/>
         break 
+    default:
+      component = <Grid/>
+      break
   }
   return (
     <>

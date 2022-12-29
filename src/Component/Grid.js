@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import "../Style.css";
 import BarChart from './BarChart';
 import TimeLine from './TimeLine';
+import Chart from  './HorizontalBarChart';
 function Grid() {
 
   return (
@@ -110,7 +111,8 @@ function Grid() {
       </Row>
     
     <Row>
-    <BarChart/>
+    
+    <Chart/>
     </Row>
 
 
